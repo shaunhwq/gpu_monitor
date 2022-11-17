@@ -1,11 +1,21 @@
 # GPU monitor
 
-A simple but useful tool for retrieving GPU related information for hosts defined in a ssh config file
+A simple tool for retrieving GPU related information for hosts defined in your ssh config file.
 
-No packages required. Simply call:
+Does not require other python packages.
 
+## Usage
 ```
-python3 gpu_monitor.py
+python3 gpu_monitor.py -h
+
+usage: gpu_monitor.py [-h] [--ssh_config SSH_CONFIG] [--max_workers MAX_WORKERS]
+
+options:
+  -h, --help            show this help message and exit
+  --ssh_config SSH_CONFIG
+                        Path to ssh config file
+  --max_workers MAX_WORKERS
+                        Maximum number of workers to use
 ```
 
 ## Expected Output
