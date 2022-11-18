@@ -18,6 +18,18 @@ options:
                         Maximum number of workers to use
 ```
 
+Alternatively, you may wish to convert it into an executable.
+
+For macOS:
+1. Change default value for argument ssh_config to match the location of your ssh config file.
+2. Add ```#!/usr/bin/env python3``` to top of gpu_monitor.py.
+3. Rename gpu_monitor.py to gpu_monitor.command.
+4. ```chmod +x gpu_monitor.command```
+5. Double click, your system should prompt you that it is attempting to run. Set the appropriate permissions and run.
+
+For Windows:
+1. Use pyinstaller to generate an executable, then run.
+
 ## Expected Output
 
 ![alt text](sample.png)
