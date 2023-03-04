@@ -1,5 +1,7 @@
 # GPU monitor
 
+![](assets/sample.png)
+
 A simple tool for retrieving GPU related information for hosts defined in your ssh config file.
 
 Does not require other python packages.
@@ -30,6 +32,3 @@ For macOS:
 For Windows:
 1. Use pyinstaller to generate an executable, then run.
 
-## Expected Output
-
-![alt text](sample.png)
